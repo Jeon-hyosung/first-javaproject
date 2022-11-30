@@ -19,30 +19,30 @@ public class Exam_SortInsertion {
 		 * 2, 5, 4, 1, 3
 		 * 2, 4, 5, 1, 3 // 2번째 결과
 		 * i = 3
-		 * 2, 4, 5, 1, 3 
-		 * 2, 4, 5, 1, 3
-		 * 2, 4, 1, 5, 3 // 3번째 결과
-		 * i = 4
-		 * 2, 4, 1, 5, 3
+		 * 2, 4, 1, 5, 3 
 		 * 2, 1, 4, 5, 3
-		 * 2, 1, 4, 3, 5
+		 * 1, 2, 4, 5, 3 // 3번째 결과
+		 * i = 4
+		 * 1, 2, 4, 3, 5
+		 * 1, 2, 3, 4, 5
+		 * 1, 2, 3, 4, 5
 		 * 1, 2, 3, 4, 5 // 4번째 결과
 		 */
 		
 		int [] arrs = {2, 5, 4, 1, 3};
-		for(int i = 1; i < arrs.length; i++) {
-			for(int j = i; j > 0; j--) {
+		for(int i = 1; i < arrs.length; i++) { // i = 1 ~ 4
+			for(int j = i; j > 0; j--) { // i > 0; i--
 				if(arrs[j-1] > arrs[j]) {
-//					int temp = arrs[1];
-//					arrs[1] = arrs[0];
-//					arrs[0] = temp;
 					int temp = arrs[j-1];
 					arrs[j-1] = arrs[j];
 					arrs[j] = temp;
 				}
 			}
 		}
-		
+		// 배열 출력
+		for(int i = 0; i < arrs.length; i++) {
+			System.out.print(arrs[i] + " ");
+		}
 		
 	}
 }

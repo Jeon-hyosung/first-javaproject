@@ -27,19 +27,12 @@ public class Exam_SortBubble_Test {
 		// 1, 2, 3, 4, 5
 		
 		int [] arrs = {2, 5, 4, 1, 3};
-		for(int i = 0; i < arrs.length-1; i++) {
-//		for(int i = 0; i < 4; i++) {
-			for(int j = 0; j < (arrs.length-1)-i; j++) {
-//			for(int j = 0; j < 4; j++){
-				if(arrs[j] > arrs[j+1]) {
-//				if(arrs[0] > arrs[1]) {
-//	--------------------------------------------------------
-					int temp = arrs[j+1];
-//					int temp = arrs[1];
-					arrs[j+1] = arrs[j];
-//					arrs[1] = arrs[0];					
-					arrs[j] = temp;
-//					arrs[0] = temp;
+		for(int i = 0; i < arrs.length; i++) {
+			for(int j = (arrs.length-1); j > 0; j--) {
+				if(j != 0 && arrs[j-1] > arrs[j]) {
+					int temp = arrs[j];
+					arrs[j] = arrs[j-1];
+					arrs[j-1] = temp;
 				}
 			}
 		}
