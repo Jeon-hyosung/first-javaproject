@@ -1,5 +1,5 @@
 package com.kh.day05.run;
-import com.kh.day05.exercise.Exercise_Array;
+import com.kh.day06.exercise.Exercise_Exception;
 
 public class run {
 
@@ -11,7 +11,10 @@ public class run {
 //		Exercise_While exWhile = new Exercise_While();
 //		exWhile.exercise3();
 		
-		Exercise_Array exArr = new Exercise_Array();
-		exArr.exercise5();
+//		Exercise_Array exArr = new Exercise_Array();
+//		exArr.exercise7();
+		
+		Exercise_Exception exExcep = new Exercise_Exception();
+		exExcep.practice2();
 	}
 }

@@ -107,6 +107,25 @@ public class Exercise_Array {
 		}
 		
 	}
+	
+	// forEach문 : 배열이나 나열(enumeration)의 각 원소를 순차적으로 접근하는데 유용한 for문
+	public void exercise6() {
+		
+		int [] nums = {1, 2, 3, 4, 5};
+		for(int num : nums) {
+			System.out.print(num + " ");
+		}
+		
+	}
+	
+	public void exercise7() {
+		
+		String [] fruits = {"딸기", "복숭아", "포도", "체리", "망고"};
+		for(String fruit : fruits) {
+			System.out.print(fruit + " ");
+		}
+		
+	}
 		
 }
 
