@@ -72,5 +72,6 @@ public class Exercise_ScoreProgram2 {
 	public static void printexception() {
 		System.out.println("1 ~ 3사이의 숫자를 입력하세요");
 	}
+
 }
 

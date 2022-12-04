@@ -107,7 +107,7 @@ public class Exercise_DimArray {
 		}
 	}
 		
-	public void exercise6() {
+	public void exercise5() {
 		// 2차원 배열에 학년별로 1,2학기 성적으로 저장하고
 		// 4년간 전체 평점 평균을 출력하라.
 		
@@ -126,4 +126,8 @@ public class Exercise_DimArray {
 		
 	}
 
+	public void exercise6() {
+		
+		
+	}
 }

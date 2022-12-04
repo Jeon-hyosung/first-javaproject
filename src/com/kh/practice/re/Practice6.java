@@ -1,4 +1,4 @@
-package com.kh.practice.condition;
+package com.kh.practice.re;
 
 import java.util.Scanner;
 
@@ -6,11 +6,11 @@ public class Practice6 {
 
 	public static void main(String [] args) {
 		
-//		»ç¿ëÀÚ·ÎºÎÅÍ ÀÔ·Â ¹ÞÀº ¼ýÀÚÀÇ ´ÜÀ» Ãâ·ÂÇÏ¼¼¿ä.
+//		ï¿½ï¿½ï¿½ï¿½Ú·Îºï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.
 //
 //		ex.
-//		Ãâ·ÂÇÏ°í ½ÍÀº ´Ü¼ö ÀÔ·Â : 4
-//		===== 4´Ü =====
+//		ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¼ï¿½ ï¿½Ô·ï¿½ : 4
+//		===== 4ï¿½ï¿½ =====
 //		4 * 1 = 4
 //		4 * 2 = 8
 //		4 * 3 = 12
@@ -24,10 +24,10 @@ public class Practice6 {
 		
 	
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Ãâ·ÂÇÏ°í ½ÍÀº ´Ü¼ö ÀÔ·Â : ");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¼ï¿½ ï¿½Ô·ï¿½ : ");
 		int dan = sc.nextInt();
 		
-		System.out.println("==== " + dan + "´Ü" + " ====");
+		System.out.println("==== " + dan + "ï¿½ï¿½" + " ====");
 		
 		int result = 0;
 		

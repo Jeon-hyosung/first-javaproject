@@ -15,6 +15,7 @@ public class run {
 //		exArr.exercise7();
 		
 		Exercise_Exception exExcep = new Exercise_Exception();
+//		                             (          객체         )
 		exExcep.practice2();
 	}
 }
