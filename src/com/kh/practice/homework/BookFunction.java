@@ -51,7 +51,7 @@ public class BookFunction {
 			String date = books[i].getStockedDate();
 			
 			System.out.println("제목 : " + name + ", 저자 : " + author + ", 장르 : " + genre);
-			//System.out.println("입고 날짜 : " + date);
+			System.out.println("입고 날짜 : " + date);
 			//System.out.println("======================");
 		}
 	}
