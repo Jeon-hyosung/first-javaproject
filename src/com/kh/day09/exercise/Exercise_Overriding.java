@@ -14,9 +14,9 @@ package com.kh.day09.exercise;
 			super.paint();
 			super.draw();
 		}
-//		void draw() {
-//			System.out.println("Sub Object");
-//		}
+		void draw() { // 오버라이딩
+			System.out.println("Sub Object");
+		}
 	}
 	
 public class Exercise_Overriding {
