@@ -38,10 +38,10 @@ class Cannon extends Weapon{
 public class MethodOverloadingEx {
 
 	public static void main(String [] args) {
-		System.out.println();
-		System.out.println("Hello World");
-		System.out.println(1);
-		System.out.println('H');
-		System.out.println(true);
+//		System.out.println();
+//		System.out.println("Hello World");
+//		System.out.println(1);
+//		System.out.println('H');
+//		System.out.println(true);
 	}
 }
